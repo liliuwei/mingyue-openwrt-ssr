@@ -14,6 +14,10 @@ cd /tmp/
 
 wget https://github.com/liliuwei/mingyue-openwrt-ssr/releases/download/v1.4/ssr.zip
 
+unzip ssr.zip
+
+cd ssr/
+
 opkg install luci-app-chinadns_1.3.1-1_all.ipk
 
 opkg install luci-app-pdnsd_git-18.282.55666-c04c81f-1_all.ipk
@@ -29,3 +33,6 @@ opkg install libudns_0.4-1_mips_24kc.ipk
 opkg install luci-app-shadowsocksR-GFW_1.2.5_all.ipk
 
 opkg install shadowsocks-vpn_20150909_mips_24kc.ipk
+
+
+
